@@ -33,7 +33,7 @@ public class Producto {
     public Producto() {
     }
 
-    public Producto(Long codProducto, String nombreProducto, long mililitrosProducto, String descripcionProducto, long volalcoholProducto, String imagenProducto, Marca tieneMarca, Categoria tieneCategoria, List<ProductoLocal> productoLocales) {
+    public Producto(long codProducto, String nombreProducto, long mililitrosProducto, String descripcionProducto, long volalcoholProducto, String imagenProducto, Marca tieneMarca, Categoria tieneCategoria, List<ProductoLocal> productoLocales) {
         this.codProducto = codProducto;
         this.nombreProducto = nombreProducto;
         this.mililitrosProducto = mililitrosProducto;

@@ -36,13 +36,13 @@ public class Usuario {
     public Usuario(long codUsuario, String dniUsuario, String nombreUsuario, String apellidoUsuario, String usuario, String contrasena, String celular, String correo, String direccion, List<Reserva> reservas) {
         this.codUsuario = codUsuario;
         this.dniUsuario = dniUsuario;
-        NombreUsuario = nombreUsuario;
-        ApellidoUsuario = apellidoUsuario;
-        Usuario = usuario;
-        Contrasena = contrasena;
-        Celular = celular;
-        Correo = correo;
-        Direccion = direccion;
+        this.NombreUsuario = nombreUsuario;
+        this.ApellidoUsuario = apellidoUsuario;
+        this.Usuario = usuario;
+        this.Contrasena = contrasena;
+        this.Celular = celular;
+        this.Correo = correo;
+        this.Direccion = direccion;
         this.reservas = reservas;
     }
 

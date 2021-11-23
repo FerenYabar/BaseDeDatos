@@ -13,7 +13,7 @@ public class Reserva {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "codreserva")
-    private Long codReserva;
+    private long codReserva;
     @Column(name = "fechareserva")
     private Date fechaReserva;
     @Column(name = "estadoreserva")
@@ -30,7 +30,7 @@ public class Reserva {
     public Reserva() {
     }
 
-    public Reserva(Long codReserva, Date fechaReserva, boolean estadoReserva, Usuario tieneUsuario, Local tieneLocal, List<DetalleReserva> detalleReservas) {
+    public Reserva(long codReserva, Date fechaReserva, boolean estadoReserva, Usuario tieneUsuario, Local tieneLocal, List<DetalleReserva> detalleReservas) {
         this.codReserva = codReserva;
         this.fechaReserva = fechaReserva;
         this.estadoReserva = estadoReserva;
